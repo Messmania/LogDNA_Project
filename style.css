@@ -147,10 +147,12 @@ html,body {
     flex-direction: column;
     background-color:#f2f2f2;
     overflow: auto;
+    max-height: 84vh;
 }
 
 .articleContent {
     padding: 20px;
+    overflow: auto;
 }
 
 .heading {
@@ -163,8 +165,9 @@ html,body {
     position: fixed;
     bottom: 0px;
     right: 5px;
-    width: 72%;/*this is relative to browser due to position being fixed*/
+    width: 72.3%;/*this is relative to browser due to position being fixed*/
     height: 50px;
+    background-color:#f2f2f2;
     border-top: 1px solid lightgray;
     display: flex;
     justify-content: space-between;
