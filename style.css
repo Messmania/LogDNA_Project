@@ -1,0 +1,225 @@
+
+html,body {
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.parentContainer {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    
+}
+
+* {
+    /* border: 1px solid black; */
+    /* margin: 2px; */
+}
+
+.parentContainer > * {
+    height: 100%;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    z-index: 1000;
+    /* border: 1px solid red; */
+}
+
+/* .header > * {
+    height: 100%;
+    border: 1px solid orange;
+} */
+
+.logo {
+    width: 5%;
+    height: 100%;
+    width: 72px;
+}
+
+.logoClass {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    font-size: 30px;
+    color: darkgray;
+    background-color: #e6e6e6;
+    box-shadow: 0 2px 2px darkgray;
+}
+
+.content {
+    position: relative;
+    top: 10%;
+    height: 90%;
+    display:flex;
+}
+.content > * {
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    width: 93px;
+    padding-top: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #4d4d4d;
+}
+
+.nav > div {
+    margin-bottom: 5px;
+}
+
+.nav>div>*:first-child {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    /* border: 1px solid red; */
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.nav>div>*:nth-child(2) {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    background-color: #e6e6e6;
+}
+
+.list > * {
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+}
+
+.list > *:focus {
+    background-color: gray;
+    outline: 0;
+}
+
+.listTitle {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.listContent {
+    padding: 5px;
+    max-width: 100%;
+    max-height: 50px;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    position: relative;
+    /* text-align: justify; */
+}
+
+.listContent:before {
+    position: absolute;
+    right: 5px;
+    bottom: 1px;
+    content: '...'
+}
+
+.article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#f2f2f2;
+    overflow: auto;
+}
+
+.articleContent {
+    padding: 20px;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    right: 5px;
+    width: 71%;/*this is relative to browser due to position being fixed*/
+    height: 50px;
+    border-top: 1px solid lightgray;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.messageInput {
+    width: 100%;
+    height: 30px;
+    outline: 0;
+    border: 1px solid gray;
+    padding-left: 5px;
+}
+
+.submitButton {
+    width: 100px;
+    height: 34px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.archImage {
+    height: 200px;
+    width: 400px;
+}
+
+.errorComponent {
+    visibility: hidden;
+    display:flex;
+    justify-content: space-between;
+    position:fixed;
+    bottom: 71px;
+    margin-left: 12px;
+    background-color:#ED4337;
+    width: 71%;
+    height: 25px;
+    border-radius: 2px;
+}
+
+#errorText {
+    padding: 5px;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif; ;
+    font-size: 14px;
+}
+
+#close {
+    background-color:#ED4337;
+    border: 0px;
+    outline: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
