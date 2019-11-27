@@ -12,7 +12,7 @@ const requestHandler = (request, response) => {
             body += stream.toString(); // convert Buffer to string
         });
         request.on('end', () => {
-            response.end('OK');
+            response.end(JSON.parse(body));
         });
     }
 }
