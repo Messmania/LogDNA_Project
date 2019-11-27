@@ -20,3 +20,8 @@
 ## Server
 - For simplicity server has been made to accept all CORS POST requests.
 - Authentication can be added for incoming requests, if needed.
+
+## Details about the project
+- Logo has been taken from logDNA website which is slightly different from the one given in mockup.
+- No CSS preprocessor has been
+- No JS frameworks have been used. Website is designed using Vanilla JS.
