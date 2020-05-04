@@ -9,16 +9,16 @@
 
 ##  LogDNA Blogging Website
 ### Access the website
-    - Go [here](https://messmania.github.io/LogDNA_Project/) and website should be shown.
+- Go [here](https://messmania.github.io/LogDNA_Project/) and website should be shown.
     
 ### Make a POST request   
-    - Type a message in the input box and click 'Send Message' to POST the message to server
-    - If there is any error, an error notification bar will be shown at the bottom.
-    - If no error message is shown, it implies that POST has been successful.
+- Type a message in the input box and click 'Send Message' to POST the message to server
+- If there is any error, an error notification bar will be shown at the bottom.
+- If no error message is shown, it implies that POST has been successful.
     
 ### Navigation
-    - List items on left can be clicked and selected item will be highlighted.
-    - Article lists can be scrolled to see the complete list of items.
+- List items on left can be clicked and selected item will be highlighted.
+- Article lists can be scrolled to see the complete list of items.
 
 ## Server
 - For simplicity server has been made to accept all CORS POST requests.
