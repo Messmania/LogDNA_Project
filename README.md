@@ -9,7 +9,7 @@
 
 ##  LogDNA Blogging Website
 ### Access the website
-    - Go to https://messmania.github.io/LogDNA_Project/ and website should be shown.
+    - Go [here](https://messmania.github.io/LogDNA_Project/) and website should be shown.
     
 ### Make a POST request   
     - Type a message in the input box and click 'Send Message' to POST the message to server
